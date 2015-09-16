@@ -25,7 +25,8 @@
     "iconSrc": "https://raw.githubusercontent.com/Ignigena/machinepack-hipchat/master/machinepack_hipchat.png",
     "machineDir": "machines/",
     "machines": [
-      "get-all-rooms"
+      "get-all-rooms",
+      "view-user"
     ]
   }
 }

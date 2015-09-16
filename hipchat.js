@@ -60,6 +60,9 @@ HipChat.prototype = {
       case 401:
         return exits.notAuthorized(response.error.message);
 
+      case 404:
+        return exits.notFound(result.error.message);
+
       default:
         return exits.error(response.error);
 
