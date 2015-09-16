@@ -1,0 +1,31 @@
+{
+  "name": "machinepack-hipchat",
+  "version": "0.0.1",
+  "description": "Works with v2 of the HipChat API.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "HipChat",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^10.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.62.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "machinepack": {
+    "friendlyName": "HipChat",
+    "iconSrc": "https://raw.githubusercontent.com/Ignigena/machinepack-hipchat/master/machinepack_hipchat.png",
+    "machineDir": "machines/",
+    "machines": [
+      "get-all-rooms"
+    ]
+  }
+}
